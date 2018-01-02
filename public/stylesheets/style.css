@@ -1,0 +1,237 @@
+body {
+    padding: 0px;
+    background-color: #111111
+}
+
+.bg-light-dark {
+    background-color: #21242E
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px
+}
+
+.round {
+    height: 95vh;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 45px;
+    text-transform: uppercase
+}
+
+h3 {
+    font-size: 32px;
+    color: #fff
+}
+
+.or {
+    color: #FF3C00;
+    font-size: 28px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.cands {
+    border-radius: 10px;
+    border: 2px dotted #fff;
+    margin: 5px;
+}
+
+.or-div {
+    display: inline-block;
+    width: 10%;
+    margin-top: 150px;
+    vertical-align: top
+}
+
+.beech {
+    height: 95vh;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center
+}
+
+.img-sec {
+    color: #fff;
+    margin-top: 100px;
+}
+
+.cands-div {
+    display: inline-block;
+    width: 40%;
+}
+
+.inp-u {
+    text-align: center;
+    margin-top: 30vh;
+    display: none;
+    position: absolute;
+    z-index: 100 !important;
+    margin-top: 5vh;
+}
+
+.input-userid {
+    width: 600px;
+    margin-left: 25vh;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    height: 60px;
+}
+
+#userid {
+    width: 300px;
+    color: #000;
+    margin-right: 30px;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+}
+
+#vote {
+    border-radius: 10px;
+    background-color: #FF3C00;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#tot-vote, #my-vote {
+    color: #fff;
+    background-color: #ABAFB2;
+    border: 0;
+    margin: 0;
+    font-size: 20px;
+    outline: 0;
+}
+
+.switch-panel {
+    float: right;
+}
+
+#tot-vote {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #FF3C00;
+}
+
+#my-vote {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#add-vote {
+    background-color: #FF3C00;
+    color: #fff;
+    border: 0;
+    margin: 0;
+    font-size: 26px;
+    outline: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#my-vote-show {
+    display: none;
+    font-size: 22px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px
+}
+
+.fol-cand, .fol-date {
+    color: #FF3C00;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.fol-img {
+    border-radius: 100%;
+}
+
+.all {
+    width: 100%;
+}
+
+.middle {
+    margin-left: 40px;
+    margin-right: auto;
+    width: 85%;
+    /* Width is important for floats. */
+    float: left;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* Allow scroll */
+    white-space: nowrap;
+    /* This will create the magic for the horizontal scroll */
+}
+
+.left {
+    background-color: #21242E;
+    color: #FF3C00;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 32px;
+    padding: 30px;
+    height: 300px;
+    vertical-align: center;
+}
+
+.middleInner {
+    display: inline-block;
+    background-color: #21242E;
+    color: #fff;
+    margin: 20px;
+    height: 300px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.middleInner-wrong {
+    display: inline-block;
+    background-color: #fff;
+    color: #FF3C00;
+    margin: 20px;
+    height: 300px;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.span {
+    margin-top: 140px;
+}
+.change-vote {
+    background-color: #111111;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #FF3C00;
+}
+
+.all{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+::selection {
+    color: #fff; 
+    background: #FF3C00;
+}

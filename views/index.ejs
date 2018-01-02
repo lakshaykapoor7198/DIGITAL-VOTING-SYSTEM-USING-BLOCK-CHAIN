@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Voting System - BlockChain</title>
+  <meta charset="utf-8"></div>
+  <div class="col-sm-4"></div>>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href = "/stylesheets/bootstrap.min.css"/>
+  <link rel="stylesheet" href = "/stylesheets/materialize.min.css"/>
+  <link rel="stylesheet" href = "/stylesheets/animate.css"/>
+  
+  
+  <script src = "/javascripts/jquery.min.js" ></script>
+  <script src = "/javascripts/bootstrap.min.js" ></script>
+  <script src = "https://static.fusioncharts.com/code/latest/fusioncharts.js" ></script>
+  <link rel="stylesheet" href = "/stylesheets/style.css"/>
+  
+</head>
+<body>
+  
+
+<div class="container-fluid inp-u">
+    <div class="col-sm-4 haha"></div>
+    <div class="col-sm-4">
+    <center>
+      <div class="input-userid" >
+        <input name="userid" type="number" placeholder="Enter ID." id="userid" pattern="[0-9]{6}"/>
+        <button type="button" id='vote' class="btn btn-default">Submit</button>
+        
+      </div>
+    </center>
+    </div>
+    <div class="col-sm-4 haha"></div>
+</div>
+
+<div class="container-fluid" >
+  <div class="col-sm-7 vote">
+    <div class="beech">
+    <h1>Wanna Vote?</h1>
+    <h3>Select One</h3>
+    <div class="img-sec">
+    <div class="cands-div">
+    <img class = 'cands' id="trump" class="h1" src = "/images/trump.jpg" width="350px" height="400px"/>
+    <div>TRUMP</div>
+    </div>
+    <div class="or-div">
+    <span class="or">OR</span>
+    </div>
+    <div class="cands-div">
+    <img class = 'cands' id ="obama" src = "/images/obama.jpg" width="350px" height="400px"/>
+    <div>OBAMA</div>
+    </div>
+    <br>
+    <center><button type="button" id="add-vote">VOTE</button></center>
+    </div>
+    </div>
+
+    <input name="cand" type="hidden" value=""/>
+    <input name="uid" type="hidden" value=""/>
+  </div>
+  <div class="col-sm-5 bg-light-dark round">
+  <div class="switch-panel" >
+    <button type="button" id="tot-vote">Total Votes</button>
+    <button type="button" id="my-vote">My Votes</button>
+  </div>
+  <div id="chart-container" class="center">Vote Distribution</div>
+  <div id="my-vote-show">
+    <p>
+      YOU VOTED :  <span class="fol-cand">Trump</span><br><br>
+      <img class="fol-img" src="/images/trumpfol.jpg" width="350px" height="400px" /><br><br><br>
+      ON : <span class="fol-date">&nbsp;&nbsp;12-12-2017</span>
+    </p>
+  </div>
+  </div>
+</div>
+
+<!---
+<div class="container-fluid all">
+  <div class="left">
+    <span class="span">
+    TRUMP
+    </span>
+  </div>
+  <div class="middle">
+    <div class="middleInner-wrong">
+      USERID : <span class="all-id">123456</span><br><br>
+      TIMESTAMP : <span class="all-time">1514887685983</span><br><br>
+      NONCE : <span class="all-nonce">60967</span><br><br>
+      PREVHASH : <span class="all-phash">0000e4efe443f47d9bc80176a3f9ee42d5e342b3106d0f2b860da984208af9b3</span><br><br>
+      HASH : <span class="all-hash">00009cf338734a8cf8bf709b1b76ee08f7efe4a834c7c4d4769d7e3733721ef5</span><br><br>
+      <center><button type="button" data-id="123456" data-name="Trump" id="change-vote" >CHANGE VOTE</button></center>
+    </div>
+  
+  </div>
+</div> -->
+
+
+
+
+
+
+  <script src = "/javascripts/script.js" ></script>
+</body>
+</html>
